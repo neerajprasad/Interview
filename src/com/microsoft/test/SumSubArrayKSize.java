@@ -8,13 +8,13 @@ public class SumSubArrayKSize {
 
 		SumSubArrayKSize window = new SumSubArrayKSize();
 		int a[] = { 4, 2, 5, -3, -7, 9 };
-		int res = window.maxSlidingWindow(a, 3);
+		int res = window.sumKSize(a, 3);
 		// for (int i = 0; i < res.length; i++) {
 		System.out.println(res);
 		// }
 	}
 
-	public int maxSlidingWindow(int[] nums, int k) {
+	public int sumKSize(int[] nums, int k) {
 		if (nums == null || nums.length == 0)
 			return 0;
 
