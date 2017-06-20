@@ -53,6 +53,7 @@ class SubRectangularSum {
 					result.down = kadane.end;
 					result.top = kadane.start;
 				}
+				
 			}
 		}
 		return result;
