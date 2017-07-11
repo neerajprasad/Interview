@@ -13,7 +13,6 @@ public class ArrangementNumber {
 		List<int[]> arrList = Helper.getValue();
 
 		arrList.forEach(a -> {
-
 			int ar[] = arr.arrangeNumber(a, a.length);
 			System.out.println(Arrays.toString(ar) );
 		});
