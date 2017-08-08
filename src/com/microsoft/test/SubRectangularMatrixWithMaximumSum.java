@@ -59,7 +59,7 @@ public class SubRectangularMatrixWithMaximumSum {
 	}
 }
 
-class Result1 {
+class Result {
 	int top;
 	int down;
 	int right;
@@ -74,11 +74,11 @@ class Result1 {
 
 }
 
-class Kadane1{
+class Kadane{
 	int maxSum;
 	int start;
 	int end;
-	public Kadane1(int maxSum, int start, int end) {
+	public Kadane(int maxSum, int start, int end) {
 		super();
 		this.maxSum = maxSum;
 		this.start = start;
